@@ -88,6 +88,10 @@ Indexing Method      Label-based                                      Position-b
 Used for Reference   Row and column labels (names)                    Numerical indices of rows and columns (starting from 0)
 """
 #Selecting a single row using .loc
+
+#loc picks data using primary key 
+#iloc used to pick data using 0 to n index , which is bydefauld primary key in it 
+
 second_row = df.loc[1]
 print("#Selecting a single row using .loc")
 print(second_row)
