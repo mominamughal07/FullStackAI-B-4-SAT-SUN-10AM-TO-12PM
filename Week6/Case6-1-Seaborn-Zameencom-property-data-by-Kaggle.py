@@ -87,7 +87,7 @@ figure.facecolor: Background color of the entire figure."""
 
 #Zameencom data - based examples
 # Load data from a CSV file
-df = pd.read_csv('Week2/zameencom-property-data-By-Kaggle-short.csv',delimiter=";", parse_dates=[14],  date_format={'date_added': '%m-%d-%Y'} , index_col='property_id')
+df = pd.read_csv('Week4/zameencom-property-data-By-Kaggle-short.csv',delimiter=";", parse_dates=[14],  date_format={'date_added': '%m-%d-%Y'} , index_col='property_id')
 
 print(df.dtypes)
 dffilter= df.head(40)
