@@ -5,7 +5,7 @@ import pandas as pd
 
 df = pd.DataFrame(columns=['Player','Salary','Year']) # creates master dataframe
 
-cService = webdriver.ChromeService(executable_path='C:\\Users\\HP\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe') # '/Users/bpfalz/Downloads/chromedriver' for my macbook
+cService = webdriver.ChromeService(executable_path='C:\\Users\\Lenovo\\Downloads\\chromedriver-win64.exe') # '/Users/bpfalz/Downloads/chromedriver' for my macbook
 driver = webdriver.Chrome(service=cService)
 
 for yr in range(1990,2023):
